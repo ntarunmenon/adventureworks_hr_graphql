@@ -1,0 +1,3 @@
+- Use Enum from Hibernate as well as GraphQL
+- Create Employee Department and Department Query
+- Use mutation to create an Employee

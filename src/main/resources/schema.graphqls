@@ -1,0 +1,16 @@
+type Employee {
+    employeeId: ID,
+    jobTitle: String,
+    birthDate: String,
+    martialStatus: String,
+    gender: String,
+    hireDate: String,
+    salariedFlag: Boolean,
+    vacationHours: Int,
+    sickLeaveHours: Int,
+    currentFlag: Boolean
+}
+
+type Query {
+    employeeById(id: ID): Employee
+}
