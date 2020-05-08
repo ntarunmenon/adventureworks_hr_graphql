@@ -12,5 +12,6 @@ type Employee {
 }
 
 type Query {
-    employeeById(id: ID): Employee
+    employeeById(id: ID): Employee,
+    employee: Employee
 }
